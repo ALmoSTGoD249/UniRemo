@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 🌙 App Theme -->
+    <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:windowBackground">#121212</item>
+        <item name="android:forceDarkAllowed">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- 🎛️ Remote Buttons -->
+    <style name="RemoteButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">0dp</item>
+
+        <!-- Round shape -->
+        <item name="cornerRadius">40dp</item>
+        <item name="android:clipToOutline">true</item>
+
+        <!-- Text -->
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+
+        <!-- Elevation -->
+        <item name="android:elevation">6dp</item>
+        <item name="android:translationZ">2dp</item>
+
+        <!-- No weird jump animation -->
+        <item name="android:stateListAnimator">@null</item>
+
+        <!-- Ripple effect -->
+        <item name="rippleColor">?attr/colorControlHighlight</item>
+
+        <!-- Padding -->
+        <item name="android:insetTop">4dp</item>
+        <item name="android:insetBottom">4dp</item>
+    </style>
+
+    <!-- 🧱 Log Text Style -->
+    <style name="LoggerText">
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">#202020</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:clipToOutline">true</item>
+    </style>
+</resources>

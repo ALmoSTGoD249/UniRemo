@@ -1,0 +1,5 @@
+com.soumyadeep.uniremote.test.app-androidTest-0 F:\AppProject\UniRemote\app\build\generated\res\resValues\androidTest\debug
+com.soumyadeep.uniremote.test.app-updated_navigation_xml-1 F:\AppProject\UniRemote\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.soumyadeep.uniremote.test.app-mergeDebugAndroidTestResources-2 F:\AppProject\UniRemote\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.soumyadeep.uniremote.test.app-mergeDebugAndroidTestResources-3 F:\AppProject\UniRemote\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.soumyadeep.uniremote.test.app-debugAndroidTest-4 F:\AppProject\UniRemote\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

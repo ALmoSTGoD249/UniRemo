@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uni Remote – 24 Keys RGB"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Grid of Buttons -->
+
+        <!-- Log Text -->
+        <GridLayout
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:alignmentMode="alignBounds"
+            android:columnCount="4"
+            android:columnOrderPreserved="false"
+            android:gravity="center"
+            android:rowCount="6"
+            android:useDefaultMargins="false">
+
+            <!-- All buttons share the same style -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBrightnessUp"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#F44336"
+                android:text="B+" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBrightnessDown"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#4CAF50"
+                android:text="B-" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPowerOff"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#1E88E5"
+                android:text="OFF" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPowerOn"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#9C27B0"
+                android:text="ON" />
+
+            <!-- Row 2 -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRed"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#FF0000"
+                android:text="R" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnGreen"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#00FF00"
+                android:text="G"
+                android:textColor="@android:color/black" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBlue"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#0000FF"
+                android:text="B" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnWhite"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#FFFFFF"
+                android:text="W"
+                android:textColor="@android:color/black" />
+
+            <!-- Row 3 -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOrange"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#FFA500" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLightGreen"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#90EE90" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLightBlue"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#ADD8E6" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFlash"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#555555"
+                android:text="FL" />
+
+            <!-- Row 4 -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLightRed"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#FF7F7F" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnTeal"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#00CED1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPurple"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#800080" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnStrobe"
+                style="@style/RemoteButtonStyle"
+                android:layout_width="78dp"
+                android:backgroundTint="#555555"
+                android:text="ST" />
+
+            <!-- Row 5 -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOrange2"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#FFA07A" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCyan"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#00BFFF" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnViolet"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#EE82EE" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFade"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#555555"
+                android:text="FA" />
+
+            <!-- Row 6 -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnYellow"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#FFFF00" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDeepBlue"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#00008B" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPink"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#FF69B4" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSmooth"
+                style="@style/RemoteButtonStyle"
+                android:backgroundTint="#555555"
+                android:text="SM" />
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/txtLog"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="#202020"
+            android:elevation="4dp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="IR Logger Ready..."
+            android:textColor="#00FF00"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>
